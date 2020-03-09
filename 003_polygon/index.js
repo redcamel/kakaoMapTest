@@ -93,7 +93,7 @@ Rich.init(
             'background', 'rgba(0,0,0,0.6)',
             'z-index', 1,
             'html', 'Loading....',
-            'color','#fff',
+            'color','#ff0000',
             'font-size', 150,
             'text-shadow','0 0 10px rgba(0,0,0,0.5)',
             '<', 'body'
@@ -174,7 +174,7 @@ Rich.init(
                     strokeWeight: 1,
                     strokeColor: '#000f80',
                     strokeOpacity: 0.3,
-                    fillColor: '#fff',
+                    fillColor: '#ff0000',
                     fillOpacity: 0.7
                 });
 
@@ -197,7 +197,7 @@ Rich.init(
                 // 다각형에 mouseout 이벤트를 등록하고 이벤트가 발생하면 폴리곤의 채움색을 원래색으로 변경합니다
                 // 커스텀 오버레이를 지도에서 제거합니다
                 kakao.maps.event.addListener(polygon, 'mouseout', function () {
-                    polygon.setOptions({fillColor: '#fff'});
+                    polygon.setOptions({fillColor: '#ff0000'});
                     customOverlay.setMap(null);
                 });
 
