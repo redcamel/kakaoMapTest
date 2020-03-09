@@ -1,2 +1,3 @@
+https://trac.osgeo.org/osgeo4w/ 설치
 mapshaper -i TL_SCCO_CTPRVN.shp encoding=euc-kr -simplify weighted 0.1% -o format=shapefile source.shp
 ogr2ogr -f GeoJSON -t_srs crs:84 result.json source.shp

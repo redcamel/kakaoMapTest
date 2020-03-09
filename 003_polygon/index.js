@@ -44,9 +44,9 @@ Rich.init(
             // console.log(data.coordinates)
 
             // if(data.properties.CTPRVN_CD==='28'){
+            if(data.geometry.type === 'MultiPolygon'){
 
-            data.geometry.coordinates.forEach(latLngList => {
-                if (latLngList[0][0] instanceof Array) {
+                data.geometry.coordinates.forEach(latLngList => {
                     latLngList.forEach(latLngList2 => {
                         let root = {
                             name: data.properties.CTP_ENG_NM,
@@ -61,22 +61,25 @@ Rich.init(
                         // console.log(root)
                         areas.push(root)
                     })
-                } else {
-                    let root = {
-                        name: data.properties.CTP_ENG_NM,
-                        path: []
-                    };
+
+                })
+
+            }else{
+                let root = {
+                    name: data.properties.CTP_ENG_NM,
+                    path: []
+                };
+                data.geometry.coordinates.forEach(latLngList => {
                     latLngList.forEach(unit => {
                         let a = unit[1]
                         let b = unit[0]
                         // console.log(a,b)
                         root.path.push(new kakao.maps.LatLng(a, b))
                     })
-                    // console.log(root)
-                    areas.push(root)
-                }
+                })
+                areas.push(root)
+            }
 
-            })
 
             // }
 
