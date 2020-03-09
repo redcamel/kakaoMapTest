@@ -1,0 +1,5 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"41171101","EMD_ENG_NM":"Anyang-dong","EMD_KOR_NM":"안양동"},"geometry":{"type":"Polygon","coordinates":[[[126.891,37.375],[126.911,37.409],[126.946,37.422],[126.947,37.421],[126.932,37.378],[126.891,37.375]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41171102","EMD_ENG_NM":"Seoksu-dong","EMD_KOR_NM":"석수동"},"geometry":{"type":"Polygon","coordinates":[[[126.947,37.421],[126.946,37.422],[126.907,37.408],[126.891,37.41],[126.892,37.411],[126.89,37.417],[126.923,37.446],[126.947,37.421]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41171103","EMD_ENG_NM":"Bakdal-dong","EMD_KOR_NM":"박달동"},"geometry":{"type":"Polygon","coordinates":[[[126.892,37.411],[126.891,37.41],[126.907,37.408],[126.911,37.409],[126.891,37.375],[126.89,37.417],[126.892,37.411]]]}}             
+]}

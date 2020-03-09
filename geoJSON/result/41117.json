@@ -1,0 +1,9 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"41117101","EMD_ENG_NM":"Maetan-dong","EMD_KOR_NM":"매탄동"},"geometry":{"type":"Polygon","coordinates":[[[127.046,37.274],[127.063,37.257],[127.061,37.253],[127.042,37.251],[127.037,37.257],[127.041,37.276],[127.046,37.274]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41117102","EMD_ENG_NM":"Woncheon-dong","EMD_KOR_NM":"원천동"},"geometry":{"type":"Polygon","coordinates":[[[127.054,37.284],[127.068,37.276],[127.071,37.267],[127.063,37.257],[127.046,37.274],[127.043,37.285],[127.054,37.284]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41117103","EMD_ENG_NM":"Iui-dong","EMD_KOR_NM":"이의동"},"geometry":{"type":"Polygon","coordinates":[[[127.062,37.296],[127.054,37.284],[127.043,37.285],[127.034,37.293],[127.033,37.302],[127.04,37.321],[127.062,37.296]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41117104","EMD_ENG_NM":"Ha-dong","EMD_KOR_NM":"하동"},"geometry":{"type":"Polygon","coordinates":[[[127.068,37.276],[127.054,37.284],[127.062,37.296],[127.068,37.276]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41117105","EMD_ENG_NM":"Yeongtong-dong","EMD_KOR_NM":"영통동"},"geometry":{"type":"Polygon","coordinates":[[[127.065,37.244],[127.056,37.247],[127.061,37.253],[127.063,37.257],[127.071,37.267],[127.065,37.244]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41117106","EMD_ENG_NM":"Sin-dong","EMD_KOR_NM":"신동"},"geometry":{"type":"Polygon","coordinates":[[[127.061,37.253],[127.056,37.247],[127.042,37.245],[127.04,37.244],[127.039,37.247],[127.042,37.251],[127.061,37.253]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41117107","EMD_ENG_NM":"Mangpo-dong","EMD_KOR_NM":"망포동"},"geometry":{"type":"Polygon","coordinates":[[[127.056,37.247],[127.065,37.244],[127.042,37.245],[127.056,37.247]]]}}             
+]}

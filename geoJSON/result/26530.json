@@ -1,0 +1,10 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"26530101","EMD_ENG_NM":"Samnak-dong","EMD_KOR_NM":"삼락동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26530102","EMD_ENG_NM":"Mora-dong","EMD_KOR_NM":"모라동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26530103","EMD_ENG_NM":"Deokpo-dong","EMD_KOR_NM":"덕포동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26530104","EMD_ENG_NM":"Gwaebeop-dong","EMD_KOR_NM":"괘법동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26530105","EMD_ENG_NM":"Gamjeon-dong","EMD_KOR_NM":"감전동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26530106","EMD_ENG_NM":"Jurye-dong","EMD_KOR_NM":"주례동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26530107","EMD_ENG_NM":"Hakjang-dong","EMD_KOR_NM":"학장동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26530108","EMD_ENG_NM":"Eomgung-dong","EMD_KOR_NM":"엄궁동"},"geometry":{"type":"Polygon","coordinates":[[[128.972,35.133],[128.988,35.124],[128.957,35.124],[128.961,35.154],[128.967,35.148],[128.972,35.133]]]}}             
+]}

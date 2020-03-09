@@ -1,0 +1,15 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"28710250","EMD_ENG_NM":"Ganghwa-eup","EMD_KOR_NM":"강화읍"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710310","EMD_ENG_NM":"Seonwon-myeon","EMD_KOR_NM":"선원면"},"geometry":{"type":"Polygon","coordinates":[[[126.52,37.69],[126.464,37.713],[126.464,37.713],[126.441,37.72],[126.442,37.728],[126.497,37.737],[126.52,37.69]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710320","EMD_ENG_NM":"Bureun-myeon","EMD_KOR_NM":"불은면"},"geometry":{"type":"Polygon","coordinates":[[[126.441,37.72],[126.464,37.713],[126.464,37.713],[126.52,37.69],[126.475,37.672],[126.427,37.711],[126.441,37.72]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710330","EMD_ENG_NM":"Gilsang-myeon","EMD_KOR_NM":"길상면"},"geometry":{"type":"Polygon","coordinates":[[[126.481,37.672],[126.543,37.618],[126.475,37.598],[126.481,37.672]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710340","EMD_ENG_NM":"Hwado-myeon","EMD_KOR_NM":"화도면"},"geometry":{"type":"Polygon","coordinates":[[[126.465,37.636],[126.475,37.598],[126.403,37.594],[126.409,37.649],[126.465,37.636]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710350","EMD_ENG_NM":"Yangdo-myeon","EMD_KOR_NM":"양도면"},"geometry":{"type":"Polygon","coordinates":[[[126.427,37.711],[126.475,37.672],[126.465,37.636],[126.409,37.649],[126.392,37.695],[126.427,37.711]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710360","EMD_ENG_NM":"Naega-myeon","EMD_KOR_NM":"내가면"},"geometry":{"type":"Polygon","coordinates":[[[126.358,37.741],[126.437,37.744],[126.442,37.728],[126.441,37.72],[126.427,37.711],[126.392,37.695],[126.358,37.741]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710370","EMD_ENG_NM":"Hajeom-myeon","EMD_KOR_NM":"하점면"},"geometry":{"type":"Polygon","coordinates":[[[126.358,37.741],[126.355,37.779],[126.427,37.79],[126.44,37.745],[126.437,37.744],[126.358,37.741]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710380","EMD_ENG_NM":"Yangsa-myeon","EMD_KOR_NM":"양사면"},"geometry":{"type":"Polygon","coordinates":[[[126.451,37.812],[126.427,37.79],[126.355,37.779],[126.395,37.823],[126.451,37.812]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710390","EMD_ENG_NM":"Songhae-myeon","EMD_KOR_NM":"송해면"},"geometry":{"type":"Polygon","coordinates":[[[126.451,37.812],[126.484,37.759],[126.44,37.745],[126.427,37.79],[126.451,37.812]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710400","EMD_ENG_NM":"Gyodong-myeon","EMD_KOR_NM":"교동면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710410","EMD_ENG_NM":"Samsan-myeon","EMD_KOR_NM":"삼산면"},"geometry":{"type":"Polygon","coordinates":[[[126.288,37.729],[126.363,37.696],[126.339,37.647],[126.288,37.729]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28710420","EMD_ENG_NM":"Seodo-myeon","EMD_KOR_NM":"서도면"},"geometry":null}             
+]}

@@ -1,0 +1,5 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"11545101","EMD_ENG_NM":"Gasan-dong","EMD_KOR_NM":"가산동"},"geometry":{"type":"Polygon","coordinates":[[[126.875,37.485],[126.881,37.486],[126.881,37.486],[126.896,37.479],[126.885,37.466],[126.88,37.471],[126.875,37.485]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11545102","EMD_ENG_NM":"Doksan-dong","EMD_KOR_NM":"독산동"},"geometry":{"type":"Polygon","coordinates":[[[126.899,37.479],[126.912,37.466],[126.894,37.453],[126.886,37.456],[126.885,37.466],[126.896,37.479],[126.899,37.479]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11545103","EMD_ENG_NM":"Siheung-dong","EMD_KOR_NM":"시흥동"},"geometry":{"type":"Polygon","coordinates":[[[126.912,37.466],[126.928,37.45],[126.899,37.439],[126.894,37.453],[126.912,37.466]]]}}             
+]}

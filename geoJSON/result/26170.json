@@ -1,0 +1,6 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"26170101","EMD_ENG_NM":"Choryang-dong","EMD_KOR_NM":"초량동"},"geometry":{"type":"Polygon","coordinates":[[[129.026,35.131],[129.043,35.122],[129.049,35.128],[129.05,35.124],[129.027,35.116],[129.026,35.117],[129.026,35.131]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"26170102","EMD_ENG_NM":"Sujeong-dong","EMD_KOR_NM":"수정동"},"geometry":{"type":"Polygon","coordinates":[[[129.026,35.136],[129.038,35.14],[129.046,35.139],[129.049,35.128],[129.043,35.122],[129.026,35.131],[129.026,35.136]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"26170103","EMD_ENG_NM":"Jwacheon-dong","EMD_KOR_NM":"좌천동"},"geometry":{"type":"Polygon","coordinates":[[[129.046,35.139],[129.057,35.136],[129.05,35.124],[129.049,35.128],[129.046,35.139]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"26170104","EMD_ENG_NM":"Beomil-dong","EMD_KOR_NM":"범일동"},"geometry":null}             
+]}

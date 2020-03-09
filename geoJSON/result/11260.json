@@ -1,0 +1,8 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"11260101","EMD_ENG_NM":"Myeonmok-dong","EMD_KOR_NM":"면목동"},"geometry":{"type":"Polygon","coordinates":[[[127.11,37.587],[127.101,37.574],[127.078,37.572],[127.071,37.591],[127.093,37.594],[127.11,37.587]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11260102","EMD_ENG_NM":"Sangbong-dong","EMD_KOR_NM":"상봉동"},"geometry":{"type":"Polygon","coordinates":[[[127.095,37.599],[127.093,37.594],[127.071,37.591],[127.071,37.593],[127.087,37.608],[127.087,37.609],[127.095,37.599]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11260103","EMD_ENG_NM":"Junghwa-dong","EMD_KOR_NM":"중화동"},"geometry":{"type":"Polygon","coordinates":[[[127.071,37.593],[127.071,37.608],[127.087,37.608],[127.071,37.593]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11260104","EMD_ENG_NM":"Muk-dong","EMD_KOR_NM":"묵동"},"geometry":{"type":"Polygon","coordinates":[[[127.09,37.62],[127.087,37.609],[127.087,37.608],[127.071,37.608],[127.071,37.608],[127.07,37.615],[127.07,37.615],[127.09,37.62]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11260105","EMD_ENG_NM":"Mangu-dong","EMD_KOR_NM":"망우동"},"geometry":{"type":"Polygon","coordinates":[[[127.117,37.609],[127.11,37.587],[127.093,37.594],[127.095,37.599],[127.117,37.609]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11260106","EMD_ENG_NM":"Sinnae-dong","EMD_KOR_NM":"신내동"},"geometry":{"type":"Polygon","coordinates":[[[127.117,37.609],[127.095,37.599],[127.087,37.609],[127.09,37.62],[127.117,37.609]]]}}             
+]}

@@ -1,0 +1,14 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"46890250","EMD_ENG_NM":"Wando-eup","EMD_KOR_NM":"완도읍"},"geometry":{"type":"Polygon","coordinates":[[[126.717,34.375],[126.756,34.315],[126.689,34.297],[126.667,34.33],[126.717,34.375]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890253","EMD_ENG_NM":"Geumil-eup","EMD_KOR_NM":"금일읍"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890256","EMD_ENG_NM":"Nohwa-eup","EMD_KOR_NM":"노화읍"},"geometry":{"type":"Polygon","coordinates":[[[126.565,34.235],[126.622,34.2],[126.561,34.179],[126.565,34.235]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890310","EMD_ENG_NM":"Gunoe-myeon","EMD_KOR_NM":"군외면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890320","EMD_ENG_NM":"Sinji-myeon","EMD_KOR_NM":"신지면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890330","EMD_ENG_NM":"Gogeum-myeon","EMD_KOR_NM":"고금면"},"geometry":{"type":"Polygon","coordinates":[[[126.834,34.443],[126.854,34.392],[126.772,34.375],[126.787,34.432],[126.834,34.443]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890340","EMD_ENG_NM":"Yaksan-myeon","EMD_KOR_NM":"약산면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890350","EMD_ENG_NM":"Cheongsan-myeon","EMD_KOR_NM":"청산면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890360","EMD_ENG_NM":"Soan-myeon","EMD_KOR_NM":"소안면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890370","EMD_ENG_NM":"Geumdang-myeon","EMD_KOR_NM":"금당면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890380","EMD_ENG_NM":"Bogil-myeon","EMD_KOR_NM":"보길면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"46890390","EMD_ENG_NM":"Saengil-myeon","EMD_KOR_NM":"생일면"},"geometry":null}             
+]}

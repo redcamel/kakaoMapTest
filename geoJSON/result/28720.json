@@ -1,0 +1,9 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"28720310","EMD_ENG_NM":"Bukdo-myeon","EMD_KOR_NM":"북도면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"28720330","EMD_ENG_NM":"Baengnyeong-myeon","EMD_KOR_NM":"백령면"},"geometry":{"type":"Polygon","coordinates":[[[124.687,37.98],[124.696,37.917],[124.637,37.924],[124.623,37.957],[124.687,37.98]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"28720340","EMD_ENG_NM":"Daecheong-myeon","EMD_KOR_NM":"대청면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"28720350","EMD_ENG_NM":"Deokjeok-myeon","EMD_KOR_NM":"덕적면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"28720360","EMD_ENG_NM":"Yeongheung-myeon","EMD_KOR_NM":"영흥면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"28720370","EMD_ENG_NM":"Jawol-myeon","EMD_KOR_NM":"자월면"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"28720380","EMD_ENG_NM":"Yeonpyeong-myeon","EMD_KOR_NM":"연평면"},"geometry":null}             
+]}

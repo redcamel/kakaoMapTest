@@ -1,0 +1,6 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"41173101","EMD_ENG_NM":"Bisan-dong","EMD_KOR_NM":"비산동"},"geometry":{"type":"Polygon","coordinates":[[[126.962,37.429],[126.955,37.393],[126.941,37.392],[126.962,37.429]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41173102","EMD_ENG_NM":"Gwanyang-dong","EMD_KOR_NM":"관양동"},"geometry":{"type":"Polygon","coordinates":[[[126.98,37.396],[126.956,37.391],[126.955,37.393],[126.962,37.429],[126.98,37.396]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41173103","EMD_ENG_NM":"Pyeongchon-dong","EMD_KOR_NM":"평촌동"},"geometry":{"type":"Polygon","coordinates":[[[126.98,37.396],[126.969,37.376],[126.961,37.381],[126.956,37.391],[126.98,37.396]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41173104","EMD_ENG_NM":"Hogye-dong","EMD_KOR_NM":"호계동"},"geometry":{"type":"Polygon","coordinates":[[[126.956,37.391],[126.961,37.381],[126.969,37.376],[126.967,37.375],[126.965,37.371],[126.962,37.362],[126.939,37.38],[126.941,37.392],[126.955,37.393],[126.956,37.391]]]}}             
+]}

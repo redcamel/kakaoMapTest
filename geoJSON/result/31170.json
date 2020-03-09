@@ -1,0 +1,10 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"31170101","EMD_ENG_NM":"Bangeo-dong","EMD_KOR_NM":"방어동"},"geometry":{"type":"Polygon","coordinates":[[[129.407,35.517],[129.427,35.492],[129.437,35.485],[129.404,35.477],[129.388,35.527],[129.407,35.517]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"31170102","EMD_ENG_NM":"Hwajeong-dong","EMD_KOR_NM":"화정동"},"geometry":{"type":"Polygon","coordinates":[[[129.407,35.517],[129.408,35.516],[129.421,35.507],[129.427,35.492],[129.407,35.517]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"31170103","EMD_ENG_NM":"Ilsan-dong","EMD_KOR_NM":"일산동"},"geometry":{"type":"Polygon","coordinates":[[[129.432,35.508],[129.437,35.485],[129.427,35.492],[129.421,35.507],[129.432,35.508]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"31170104","EMD_ENG_NM":"Jeonha-dong","EMD_KOR_NM":"전하동"},"geometry":{"type":"Polygon","coordinates":[[[129.439,35.52],[129.432,35.508],[129.421,35.507],[129.408,35.516],[129.409,35.521],[129.439,35.52]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"31170105","EMD_ENG_NM":"Mipo-dong","EMD_KOR_NM":"미포동"},"geometry":{"type":"Polygon","coordinates":[[[129.452,35.544],[129.439,35.528],[129.433,35.535],[129.443,35.545],[129.452,35.544]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"31170106","EMD_ENG_NM":"Jujeon-dong","EMD_KOR_NM":"주전동"},"geometry":{"type":"Polygon","coordinates":[[[129.452,35.544],[129.443,35.545],[129.438,35.568],[129.452,35.572],[129.452,35.544]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"31170107","EMD_ENG_NM":"Dongbu-dong","EMD_KOR_NM":"동부동"},"geometry":{"type":"Polygon","coordinates":[[[129.413,35.559],[129.438,35.568],[129.443,35.545],[129.433,35.535],[129.408,35.545],[129.413,35.559]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"31170108","EMD_ENG_NM":"Seobu-dong","EMD_KOR_NM":"서부동"},"geometry":{"type":"Polygon","coordinates":[[[129.433,35.535],[129.439,35.528],[129.439,35.52],[129.409,35.521],[129.408,35.545],[129.433,35.535]]]}}             
+]}

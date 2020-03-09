@@ -1,0 +1,4 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"26470101","EMD_ENG_NM":"Geoje-dong","EMD_KOR_NM":"거제동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"26470102","EMD_ENG_NM":"Yeonsan-dong","EMD_KOR_NM":"연산동"},"geometry":{"type":"Polygon","coordinates":[[[129.09,35.193],[129.091,35.193],[129.096,35.193],[129.115,35.184],[129.095,35.162],[129.095,35.161],[129.083,35.158],[129.079,35.163],[129.078,35.164],[129.09,35.193]]]}}             
+]}

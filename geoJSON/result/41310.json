@@ -1,0 +1,9 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"41310101","EMD_ENG_NM":"Galmae-dong","EMD_KOR_NM":"갈매동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"41310102","EMD_ENG_NM":"Sano-dong","EMD_KOR_NM":"사노동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"41310103","EMD_ENG_NM":"Inchang-dong","EMD_KOR_NM":"인창동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"41310104","EMD_ENG_NM":"Gyomun-dong","EMD_KOR_NM":"교문동"},"geometry":{"type":"Polygon","coordinates":[[[127.109,37.583],[127.136,37.601],[127.14,37.583],[127.129,37.577],[127.109,37.583]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41310105","EMD_ENG_NM":"Sutaek-dong","EMD_KOR_NM":"수택동"},"geometry":{"type":"Polygon","coordinates":[[[127.136,37.601],[127.162,37.589],[127.14,37.583],[127.136,37.601]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41310106","EMD_ENG_NM":"Acheon-dong","EMD_KOR_NM":"아천동"},"geometry":{"type":"Polygon","coordinates":[[[127.109,37.583],[127.129,37.577],[127.131,37.567],[127.109,37.583]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41310107","EMD_ENG_NM":"Topyeong-dong","EMD_KOR_NM":"토평동"},"geometry":{"type":"Polygon","coordinates":[[[127.129,37.577],[127.14,37.583],[127.162,37.589],[127.131,37.567],[127.129,37.577]]]}}             
+]}

@@ -1,0 +1,9 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"41465101","EMD_ENG_NM":"Pungdeokcheon-dong","EMD_KOR_NM":"풍덕천동"},"geometry":{"type":"Polygon","coordinates":[[[127.083,37.319],[127.08,37.332],[127.103,37.332],[127.103,37.323],[127.095,37.313],[127.087,37.314],[127.083,37.319]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41465102","EMD_ENG_NM":"Jukjeon-dong","EMD_KOR_NM":"죽전동"},"geometry":{"type":"Polygon","coordinates":[[[127.103,37.332],[127.105,37.338],[127.138,37.324],[127.127,37.318],[127.103,37.323],[127.103,37.332]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41465103","EMD_ENG_NM":"Dongcheon-dong","EMD_KOR_NM":"동천동"},"geometry":{"type":"Polygon","coordinates":[[[127.039,37.345],[127.081,37.35],[127.105,37.338],[127.103,37.332],[127.08,37.332],[127.039,37.345]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41465104","EMD_ENG_NM":"Gogi-dong","EMD_KOR_NM":"고기동"},"geometry":{"type":"Polygon","coordinates":[[[127.081,37.35],[127.039,37.345],[127.033,37.345],[127.081,37.35]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41465105","EMD_ENG_NM":"Sinbong-dong","EMD_KOR_NM":"신봉동"},"geometry":{"type":"Polygon","coordinates":[[[127.033,37.345],[127.039,37.345],[127.08,37.332],[127.083,37.319],[127.038,37.328],[127.033,37.345]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41465106","EMD_ENG_NM":"Seongbok-dong","EMD_KOR_NM":"성복동"},"geometry":{"type":"Polygon","coordinates":[[[127.038,37.328],[127.083,37.319],[127.087,37.314],[127.038,37.328]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"41465107","EMD_ENG_NM":"Sanghyeon-dong","EMD_KOR_NM":"상현동"},"geometry":null}             
+]}

@@ -1,0 +1,6 @@
+{"type": "FeatureCollection", "features": [                                  
+  {"type":"Feature","properties":{"EMD_CD":"11320105","EMD_ENG_NM":"Ssangmun-dong","EMD_KOR_NM":"쌍문동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"11320106","EMD_ENG_NM":"Banghak-dong","EMD_KOR_NM":"방학동"},"geometry":{"type":"Polygon","coordinates":[[[127.019,37.671],[127.049,37.669],[127.052,37.661],[127.042,37.662],[127.019,37.671]]]}},                  
+  {"type":"Feature","properties":{"EMD_CD":"11320107","EMD_ENG_NM":"Chang-dong","EMD_KOR_NM":"창동"},"geometry":null},                  
+  {"type":"Feature","properties":{"EMD_CD":"11320108","EMD_ENG_NM":"Dobong-dong","EMD_KOR_NM":"도봉동"},"geometry":null}             
+]}
