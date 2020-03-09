@@ -23,7 +23,7 @@ Rich.init(
     let map = callMap(
         { //지도를 생성할 때 필요한 기본 옵션
             center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
-            level: 15 // 지도의 확대 레벨
+            level: 12 // 지도의 확대 레벨
         }
     );
     let customOverlay = new kakao.maps.CustomOverlay({
