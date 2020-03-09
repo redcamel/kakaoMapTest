@@ -39,36 +39,72 @@ Rich.init(
     // Rich.ajaxJsonGet('../geoJSON/sido/result.json')
     // Rich.ajaxJsonGet('../geoJSON/sigungu/result.json')
     Rich.Dom('div').S(
-        'position','fixed',
-        'top',0,'right',0,
-        '<','body',
-        '>',Rich.Dom('button').S(
-            'html','도,시',
-            'down',function(){
+        'position', 'fixed',
+        'top', 0, 'right', 0,
+        '<', 'body',
+        '>', Rich.Dom('button').S(
+            'html', '도,시',
+            'down', function () {
                 loadPolygon('../geoJSON/sido/result.json')
             }
         ),
-        '>',Rich.Dom('button').S(
-            'html','시군구',
-            'down',function(){
+        '>', Rich.Dom('button').S(
+            'html', '시군구',
+            'down', function () {
                 loadPolygon('../geoJSON/sigungu/result.json')
             }
         ),
-        '>',Rich.Dom('button').S(
-            'html','동면읍',
-            'down',function(){
+        '>', Rich.Dom('button').S(
+            'html', '동면읍',
+            'down', function () {
                 loadPolygon('../geoJSON/dong/result.json')
             }
-        )
+        ),
+        '>', (function () {
+            var t0 = Rich.Dom('select').S(
+                'change', function (v) {
+                    loadPolygon('../geoJSON/result/' + this.S('@value'))
+                }
+            )
+            Rich.ajaxJsonGet('../geoJSON/result/list.json').then(res => res.json()).then(v => {
+                v.list.forEach(info => {
+                    Rich.Dom('option').S(
+                        '<', t0,
+                        '@value', info.fileName,
+                        'html', info.name
+                    )
+                })
+            })
+
+            // 'down',function(){
+            //     loadPolygon('../geoJSON/dong/result.json')
+            // }
+            return t0
+        })()
     )
     let currentPolygons = []
-    let loadPolygon = function(src){
+    let loadPolygon = function (src) {
+        let t0 = Rich.Dom('button').S(
+            'position', 'fixed',
+            'top', 0, 'left', 0, 'right', 0, 'bottom', 0,
+            'width', '100%',
+            'border', 0,
+            'outline', 'none',
+            'background', 'rgba(0,0,0,0.6)',
+            'z-index', 1,
+            'html', 'Loading....',
+            'color','#fff',
+            'font-size', 150,
+            'text-shadow','0 0 10px rgba(0,0,0,0.5)',
+            '<', 'body'
+        )
         areas.length = 0
         currentPolygons.forEach(v => v.setMap(null))
         currentPolygons.length = 0
         Rich.ajaxJsonGet(src)
             .then(v => v.json()).then(v => {
             console.log(v)
+            t0.remove()
             let path = []
             v.features.forEach(data => {
                 // console.log(data)
