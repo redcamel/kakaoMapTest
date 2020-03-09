@@ -37,7 +37,8 @@ Rich.init(
     // map.setProjectionId(kakao.maps.ProjectionId.NONE);
 
     // Rich.ajaxJsonGet('../geoJSON/sido/result.json')
-    Rich.ajaxJsonGet('../geoJSON/sigungu/result.json')
+    // Rich.ajaxJsonGet('../geoJSON/sigungu/result.json')
+    Rich.ajaxJsonGet('../geoJSON/dong/result.json')
         .then(v => v.json()).then(v => {
         console.log(v)
         let path = []
@@ -47,13 +48,13 @@ Rich.init(
 
             // if(data.properties.CTPRVN_CD==='28'){
             if (data.geometry) {
-                let tName = data.properties.CTP_ENG_NM || data.properties.SIG_ENG_NM
-                let tNameKO = data.properties.CTP_KOR_NM || data.properties.SIG_KOR_NM
+                let tName = data.properties.CTP_ENG_NM || data.properties.SIG_ENG_NM || data.properties.EMD_ENG_NM
+                let tNameKO = data.properties.CTP_KOR_NM || data.properties.SIG_KOR_NM || data.properties.EMD_KOR_NM
                 if (data.geometry.type === 'MultiPolygon') {
                     data.geometry.coordinates.forEach((latLngList, index) => {
                         let root = {
                             name: tName,
-                            nameK:tNameKO,
+                            nameK: tNameKO,
                             path: []
                         };
                         latLngList.forEach((latLngList2) => {
@@ -74,7 +75,7 @@ Rich.init(
                 } else {
                     let root = {
                         name: tName,
-                        nameK:tNameKO,
+                        nameK: tNameKO,
                         path: []
                     };
                     data.geometry.coordinates.forEach(latLngList => {
@@ -117,10 +118,8 @@ Rich.init(
             // 지역명을 표시하는 커스텀오버레이를 지도위에 표시합니다
             kakao.maps.event.addListener(polygon, 'mouseover', function (mouseEvent) {
                 polygon.setOptions({fillColor: '#09f'});
-
-                customOverlay.setContent('<div class="area">' + area.name + '</div>');
-
                 customOverlay.setPosition(mouseEvent.latLng);
+                customOverlay.setContent('<div class="area">' + area.nameK + '(' + area.name + ')</div>');
                 customOverlay.setMap(map);
             });
 
@@ -141,7 +140,7 @@ Rich.init(
             kakao.maps.event.addListener(polygon, 'click', function (mouseEvent) {
                 console.log(polygon)
                 var content = '<div class="info">' +
-                    '   <div class="title">' + area.name + '</div>' +
+                    '   <div class="title">' + area.nameK + '(' + area.name + ')</div>' +
                     '   <div class="size">총 면적 : 약 ' + Math.floor(polygon.getArea()) + ' m<sup>2</sup></area>' +
                     '</div>';
 

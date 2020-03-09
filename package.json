@@ -11,8 +11,9 @@
   },
   "scripts": {
     "minify_sido" : "mapshaper -i geoJSON/sido/TL_SCCO_CTPRVN.shp encoding=euc-kr -simplify weighted 0.1% -o format=shapefile geoJSON/sido/source.shp encoding=utf-8",
-    "minify_sigungu" : "mapshaper -i geoJSON/sigungu/TL_SCCO_SIG.shp encoding=euc-kr -simplify weighted 0.1% -o format=shapefile geoJSON/sigungu/source.shp encoding=utf-8",
-    "allBuild" : "npm run minify_sido && npm run minify_sigungu && geoJSON_build.bat",
+    "minify_sigungu" : "mapshaper -i geoJSON/sigungu/TL_SCCO_SIG.shp encoding=euc-kr -simplify weighted 0.5% -o format=shapefile geoJSON/sigungu/source.shp encoding=utf-8",
+    "minify_dong" : "mapshaper -i geoJSON/dong/TL_SCCO_EMD.shp encoding=euc-kr -simplify weighted 0.1% -o format=shapefile geoJSON/dong/source.shp encoding=utf-8",
+    "allBuild" : "npm run minify_sido && npm run minify_sigungu && npm run minify_dong && geoJSON_build.bat",
     "only_geoJSON_build" : "geoJSON_build.bat",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
