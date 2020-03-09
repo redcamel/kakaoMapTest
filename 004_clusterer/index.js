@@ -49,7 +49,7 @@ Rich.init(
         // 마커 클러스터러로 관리할 마커 객체는 생성할 때 지도 객체를 설정하지 않습니다
         var markers = []
         let i = positions.length
-        const MAX = 1500
+        const MAX = i
         if (i > MAX) i = MAX
         while (i--) {
 
@@ -59,6 +59,7 @@ Rich.init(
                 ${tData.full}
             `
             let content = Rich.Dom('div').S(
+                'position','absolute',
                 'padding', 10,
                 'border-radius', 10,
                 'background', '#d02dbc',
