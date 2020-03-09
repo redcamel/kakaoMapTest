@@ -44,27 +44,29 @@ Rich.init(
             // console.log(data.coordinates)
 
             // if(data.properties.CTPRVN_CD==='28'){
-            if(data.geometry.type === 'MultiPolygon'){
+            if (data.geometry.type === 'MultiPolygon') {
 
-                data.geometry.coordinates.forEach(latLngList => {
-                    latLngList.forEach(latLngList2 => {
-                        let root = {
-                            name: data.properties.CTP_ENG_NM,
-                            path: []
-                        };
+                data.geometry.coordinates.forEach((latLngList, index) => {
+                    let root = {
+                        name: data.properties.CTP_ENG_NM,
+                        path: []
+                    };
+                    latLngList.forEach((latLngList2) => {
+                        let newPath = []
                         latLngList2.forEach(unit => {
                             let a = unit[1]
                             let b = unit[0]
                             // console.log(a,b)
-                            root.path.push(new kakao.maps.LatLng(a, b))
+                            newPath.push(new kakao.maps.LatLng(a, b))
                         })
                         // console.log(root)
-                        areas.push(root)
+                        root.path.push(newPath)
                     })
+                    areas.push(root)
 
                 })
 
-            }else{
+            } else {
                 let root = {
                     name: data.properties.CTP_ENG_NM,
                     path: []
