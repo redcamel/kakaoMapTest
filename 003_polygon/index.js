@@ -36,7 +36,9 @@ Rich.init(
     var areas = [];
     // map.setProjectionId(kakao.maps.ProjectionId.NONE);
 
-    Rich.ajaxJsonGet('../geoJSON/shp/result.json').then(v => v.json()).then(v => {
+    // Rich.ajaxJsonGet('../geoJSON/sido/result.json')
+    Rich.ajaxJsonGet('../geoJSON/sigungu/result.json')
+        .then(v => v.json()).then(v => {
         console.log(v)
         let path = []
         v.features.forEach(data => {
@@ -44,42 +46,47 @@ Rich.init(
             // console.log(data.coordinates)
 
             // if(data.properties.CTPRVN_CD==='28'){
-            if (data.geometry.type === 'MultiPolygon') {
+            if (data.geometry) {
+                let tName = data.properties.CTP_ENG_NM || data.properties.SIG_ENG_NM
+                let tNameKO = data.properties.CTP_KOR_NM || data.properties.SIG_KOR_NM
+                if (data.geometry.type === 'MultiPolygon') {
+                    data.geometry.coordinates.forEach((latLngList, index) => {
+                        let root = {
+                            name: tName,
+                            nameK:tNameKO,
+                            path: []
+                        };
+                        latLngList.forEach((latLngList2) => {
+                            let newPath = []
+                            latLngList2.forEach(unit => {
+                                let a = unit[1]
+                                let b = unit[0]
+                                // console.log(a,b)
+                                newPath.push(new kakao.maps.LatLng(a, b))
+                            })
+                            // console.log(root)
+                            root.path.push(newPath)
+                        })
+                        areas.push(root)
 
-                data.geometry.coordinates.forEach((latLngList, index) => {
+                    })
+
+                } else {
                     let root = {
-                        name: data.properties.CTP_ENG_NM,
+                        name: tName,
+                        nameK:tNameKO,
                         path: []
                     };
-                    latLngList.forEach((latLngList2) => {
-                        let newPath = []
-                        latLngList2.forEach(unit => {
+                    data.geometry.coordinates.forEach(latLngList => {
+                        latLngList.forEach(unit => {
                             let a = unit[1]
                             let b = unit[0]
                             // console.log(a,b)
-                            newPath.push(new kakao.maps.LatLng(a, b))
+                            root.path.push(new kakao.maps.LatLng(a, b))
                         })
-                        // console.log(root)
-                        root.path.push(newPath)
                     })
                     areas.push(root)
-
-                })
-
-            } else {
-                let root = {
-                    name: data.properties.CTP_ENG_NM,
-                    path: []
-                };
-                data.geometry.coordinates.forEach(latLngList => {
-                    latLngList.forEach(unit => {
-                        let a = unit[1]
-                        let b = unit[0]
-                        // console.log(a,b)
-                        root.path.push(new kakao.maps.LatLng(a, b))
-                    })
-                })
-                areas.push(root)
+                }
             }
 
 
@@ -132,6 +139,7 @@ Rich.init(
 
             // 다각형에 click 이벤트를 등록하고 이벤트가 발생하면 다각형의 이름과 면적을 인포윈도우에 표시합니다
             kakao.maps.event.addListener(polygon, 'click', function (mouseEvent) {
+                console.log(polygon)
                 var content = '<div class="info">' +
                     '   <div class="title">' + area.name + '</div>' +
                     '   <div class="size">총 면적 : 약 ' + Math.floor(polygon.getArea()) + ' m<sup>2</sup></area>' +

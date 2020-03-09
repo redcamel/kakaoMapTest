@@ -1,6 +1,6 @@
 "use strict";
 var ogr2ogr = require('ogr2ogr');
-var ogr = ogr2ogr('/geoJSON/shp/source.shp');
+var ogr = ogr2ogr('/geoJSON/sido/source.sido');
 console.log(ogr2ogr);
 console.log(ogr);
 ogr.exec(function(er, data) {
