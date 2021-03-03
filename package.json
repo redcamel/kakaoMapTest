@@ -11,7 +11,7 @@
         "mapshaper": "^0.4.159"
     },
     "scripts": {
-        "minify_Builing_100": "mapshaper -i geoJSON_building/AL_11_D010_20210206.shp encoding=euc-kr -simplify weighted 100% -o format=shapefile geoJSON_building/source.shp encoding=utf-8",
+        "minify_Builing_100": "mapshaper -i geoJSON_building/AL_36_D010_20210206.shp encoding=euc-kr -simplify weighted 100% -o format=shapefile geoJSON_building/source.shp encoding=utf-8",
         "build_all": "npm run build_202005 && npm run build_201905 && npm run build_201902 && npm run build_201804 && npm run build_201703 && npm run build_201602 && npm run build_201506 && npm run build_build_201407 && npm run build_build_201405 && npm run build_build_201311",
         "minify_sd_202005": "mapshaper -i geoJSON_year/sd/CTPRVN_202005/CTPRVN.shp encoding=euc-kr -simplify weighted 2% -o format=shapefile geoJSON_year/sd/CTPRVN_202005/source.shp encoding=utf-8",
         "minify_sgg_202005": "mapshaper -i geoJSON_year/sgg/SIG_202005/SIG.shp encoding=euc-kr -simplify weighted 11% -o format=shapefile geoJSON_year/sgg/SIG_202005/source.shp encoding=utf-8",
