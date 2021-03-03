@@ -4,6 +4,7 @@ var shpPath = `geoJSON_building/result_100.json`;
 
 function splitGeojson() {
   console.log("\n *START* \n");
+  console.log('참조체계연계키 A21 기반 개별 파일화')
 
   var fileName = shpPath;
   var contents = fs.readFileSync(fileName);
