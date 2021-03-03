@@ -91,19 +91,19 @@ Rich.init(
         '>', Rich.Dom('button').S(
             'html', '도,시',
             'down', function () {
-                loadPolygon('../geoJSON/sido/result.json')
+                loadPolygon('../geoJSON/sd/result_100.json')
             }
         ),
         '>', Rich.Dom('button').S(
             'html', '시군구',
             'down', function () {
-                loadPolygon('../geoJSON/sigungu/result.json')
+                loadPolygon('../geoJSON/sigungu/result_100.json')
             }
         ),
         '>', Rich.Dom('button').S(
             'html', '동면읍',
             'down', function () {
-                loadPolygon('../geoJSON/dong/result.json')
+                loadPolygon('../geoJSON/dong/result_100.json')
             }
         ),
         '>', (function () {
@@ -123,7 +123,7 @@ Rich.init(
             })
 
             // 'down',function(){
-            //     loadPolygon('../geoJSON/dong/result.json')
+            //     loadPolygon('../geoJSON/dong/result_100.json')
             // }
             return t0
         })()

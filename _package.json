@@ -1,0 +1,27 @@
+{
+  "name": "kakaomaptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ogr2ogr": "^2.0.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "mapshaper": "^0.4.159"
+  },
+  "scripts": {
+    "minify_sido": "mapshaper -i geoJSON/sido/TL_SCCO_CTPRVN.shp encoding=euc-kr -simplify weighted 0.15% -o format=shapefile geoJSON/sido/source.shp encoding=utf-8",
+    "minify_sigungu": "mapshaper -i geoJSON/sigungu/TL_SCCO_SIG.shp encoding=euc-kr -simplify weighted 0.5% -o format=shapefile geoJSON/sigungu/source.shp encoding=utf-8",
+    "minify_dong": "mapshaper -i geoJSON/dong/TL_SCCO_EMD.shp encoding=euc-kr -simplify weighted 0.05% -o format=shapefile geoJSON/dong/source.shp encoding=utf-8",
+    "minify_test": "mapshaper -i geoJSON/test/test.shp encoding=utf-8 -simplify weighted 100% -o format=shapefile geoJSON/test/source.shp encoding=utf-8",
+    "allBuild": "npm run minify_sido && npm run minify_sigungu && npm run minify_dong && geoJSON_build.bat",
+
+
+    "only_geoJSON_build": "geoJSON_build.bat",
+    "splitEachJSON": "node splitEachJSON",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
